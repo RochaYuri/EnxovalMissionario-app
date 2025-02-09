@@ -1,0 +1,48 @@
+.navbarBrand {
+  line-height: 23px;
+  transition: 0.3s;
+  text-decoration: none;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.navbarBrandHigh {
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbarBrandDown {
+  color: #445de7;
+  font-weight: bold;
+}
+
+.navLink {
+  color: #fff;
+  font-weight: bold;
+  font-size: 17px;
+  text-decoration: none;
+
+  &:hover, &:focus {
+    color: #455EB5;
+  }
+}
+
+.navLink.active {
+    color: #445de7;
+}
+
+.dropdown {
+  background-color: #212529;
+}
+
+.dropdownItem {
+  &:hover {
+    background-color: #2e3135;
+  }
+}
+
+.toggler {
+  background-color: #455de7 !important;
+}

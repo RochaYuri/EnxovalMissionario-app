@@ -1,0 +1,11 @@
+.colOptions {
+    width: 70px;
+    padding: 0 !important;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.inputGroupText {
+    background-color: #85898d;
+    border: 0
+}
