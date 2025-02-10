@@ -1,5 +1,5 @@
 import { Col, Row } from "reactstrap";
-import fotoAdan from "../../images/misisonary_pic.jpg";
+import fotoAdan from "../../images/missionary_pic.jpg";
 import bandeiraRs from "../../images/flag.webp";
 import styles from "./styles.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
