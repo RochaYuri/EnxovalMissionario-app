@@ -1,6 +1,6 @@
 import { Col, Row } from "reactstrap";
-import fotoAdan from "../../images/missionary_pic.jpg";
-import bandeiraRs from "../../images/flag.webp";
+import missionaryPic from "../../images/missionary_pic.jpg";
+import flag from "../../images/flag.webp";
 import styles from "./styles.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuoteLeft, faQuoteRight } from "@fortawesome/free-solid-svg-icons";
@@ -30,7 +30,7 @@ export default function Header() {
         <Row className="mt-5">
           <Col xs="12" md="6">
             <img
-              src={fotoAdan}
+              src={missionaryPic}
               alt="Foto do Missionário"
               className={styles.missionaryPicture}
             />
@@ -38,7 +38,7 @@ export default function Header() {
           <Col xs="12" md="6" className="mt-2">
             <div className="text-start">
               <img
-                src={bandeiraRs}
+                src={flag}
                 alt="Bandeira"
                 className={styles.flag}
               />
