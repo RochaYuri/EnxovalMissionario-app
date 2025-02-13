@@ -66,6 +66,7 @@ export default function Categories() {
         )
         .then((response) => {
           setCategoriesList(response.data);
+          console.log(response.data)
         })
         .catch((err) => {
           console.log(err);
@@ -329,7 +330,7 @@ export default function Categories() {
                           <td className="text-center">{category.id}</td>
                           <td>{category.name.toUpperCase()}</td>
                           <td>
-                            {new Date(category.createdAt).toLocaleDateString()}
+                            {category.createdAt.split(",")[0]}
                           </td>
                           <td>{category.createdBy.toUpperCase()}</td>
                         </tr>
