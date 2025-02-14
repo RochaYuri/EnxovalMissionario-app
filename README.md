@@ -50,6 +50,9 @@ A área "**ADMIN**" é acessível somente por usuários previamente autorizados 
     - A API utiliza a configuração do **CORS**, então se necessário precisa ser adicionado a origem no middleware.
     - Em todas as requisições necessárias para realizar alterações nos arquivos JSON, o arquivo precisa ser reescrito.
     - A API possui uma documentação feita pelo **swagger** na rota [{link_da_api}/api_docs/](%7Blink_da_api%7D/api-docs/)
+    - Usuário Root:
+       - root
+       - @r00t#
 
 Esta é a v1.0 do sistema. 
 
